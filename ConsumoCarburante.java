@@ -1,6 +1,12 @@
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.Scanner;
 
 public class ConsumoCarburante {
+
+    private static final Logger log = LoggerFactory.getLogger(ConsumoCarburante.class);
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
